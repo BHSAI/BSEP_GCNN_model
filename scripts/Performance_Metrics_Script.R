@@ -1,5 +1,6 @@
+# Author: [Abdulhameed, Mohamed Diwan M.]
 
-
+# This function calculates various performance metrics for binary classification model predictions.
 get_perf_metrics_bayesclassif <- function(predictions) {
     # Rename variables for clarity
     predictions$predicted_binary <- predictions$PRED
